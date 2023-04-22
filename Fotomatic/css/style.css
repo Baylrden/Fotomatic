@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+                /*NAVBAR*/
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    color: #4A4A4A;
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: #4A4A4A;
+    font-size: 18px;
+    line-height: 1.6;
+    
+}
+
+.logo{
+    color: #4A4A4A;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+
+  
+}
+                /*CARD*/
+.format-camera{
+    background-color: #9DC20A;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    position: relative;
+    top: 35%;
+    height: 280px;
+    width: 470px;
+    left: 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.format-camera h1{
+    color: white;
+    font-size: 35px;
+    line-height: 1.4;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+}
+
+.format-camera p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.4;
+    padding-top: 15px;
+}
+
+.format-camera h2{
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.section1{
+    background-image: url("/img/banner-landingpage.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.black-area{
+    width: 340px;
+    height: 55px;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.black-area h2{
+    color:white;
+    line-height: 1.4;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
